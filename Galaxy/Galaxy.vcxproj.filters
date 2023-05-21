@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{55527902-ae97-428a-83af-f50e7acee132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI">
+      <UniqueIdentifier>{c932e160-6ccd-4436-9a30-082cacf91243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{4546553f-2251-48ac-909b-318335d15212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon">
+      <UniqueIdentifier>{d1a7e0ed-cc8b-4f2b-beb6-32f473c65441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Etc">
+      <UniqueIdentifier>{fd815f55-dd2e-4def-85aa-22c2a0371d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\bullet">
+      <UniqueIdentifier>{3103bbc7-bc5e-45fa-ab3a-5be36af235f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\weapon">
+      <UniqueIdentifier>{9edaee4b-fa10-4ec5-9896-8361d1e02ec1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_chargingBar.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_circle.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_line.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_player.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_prototype.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_rect.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_star.h">
+      <Filter>Object\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="textOut.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_bullet.h">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_bullet_laser.h">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_bullet_star.h">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_laserGun.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_pistol.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_prototype.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_shotgun.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_sniper.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_starGun.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_grenade.h">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_weapon_bullet_grenade.h">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_chargingBar.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_circle.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_line.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_player.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_prototype.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_rect.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_star.cpp">
+      <Filter>Object\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="textOut.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_bullet.cpp">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_bullet_laser.cpp">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_bullet_star.cpp">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_laserGun.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_pistol.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_prototype.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_shotgun.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_sniper.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_starGun.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_grenade.cpp">
+      <Filter>Object\Weapon\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_weapon_bullet_grenade.cpp">
+      <Filter>Object\Weapon\bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
